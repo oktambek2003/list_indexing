@@ -1,6 +1,7 @@
-void func(int a) {
+String func(String a) {
   List a = [];
-  print(a);
+String  b = "";
+  return b;
 }
 
 /*
@@ -12,3 +13,6 @@ void func(int a) {
         list: return answer
 */
 
+void main() {
+  print(func(""));
+}
