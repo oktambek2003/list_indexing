@@ -1,3 +1,8 @@
+void func(int a) {
+  List a = [];
+  print(a);
+}
+
 /*
     Create function named func 
     Return an empty list to the result.
@@ -6,4 +11,4 @@
     Returns:
         list: return answer
 */
-void main() {}
+
