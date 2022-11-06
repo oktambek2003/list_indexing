@@ -10,7 +10,7 @@ List func(List list1) {
   int i = 0;
   while (i < list1.length) {
     if (list1[i] == 0) {
-      list1[i] = true;
+      list1[i] = false;
     }
     i += 1;
   }
