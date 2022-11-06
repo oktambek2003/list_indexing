@@ -1,7 +1,7 @@
-List func(List a) {
-   a = [" "];
+List func(List b) {
+  b  = [""];
 
-  return a;
+  return b;
 }
 
 /*
