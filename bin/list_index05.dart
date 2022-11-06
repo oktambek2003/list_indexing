@@ -7,4 +7,17 @@
     Returns:
         list: return answer
 */
-void main() {}
+List func(List list1, int i) {
+  return list1[i];
+}
+
+void main() {
+  print(func([
+    1,
+    3,
+    4,
+    23,
+    43,
+    7
+  ], 4));
+}
