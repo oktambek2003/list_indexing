@@ -1,7 +1,7 @@
-String func(String a) {
-  List a = [];
-String  b = "";
-  return b;
+List func(List a) {
+   a = [" "];
+
+  return a;
 }
 
 /*
@@ -14,5 +14,5 @@ String  b = "";
 */
 
 void main() {
-  print(func(""));
+  print(func([]));
 }
