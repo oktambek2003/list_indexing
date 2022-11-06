@@ -6,4 +6,11 @@
     Returns:
         list: return answer
 */
-void main() {}
+List func(List list1) {
+  return list1.removeLast();
+}
+
+void main() {
+  print(func([1, 3, 1, 3,8]));
+}
+
