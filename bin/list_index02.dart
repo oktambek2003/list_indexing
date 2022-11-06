@@ -6,8 +6,8 @@
     Returns:
         list: return answer
 */
-List func(List x) {
-  return x[0];
+int  func(List list1) {
+  return list1[0];
 }
 
 void main() {
