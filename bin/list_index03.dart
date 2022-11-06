@@ -7,4 +7,11 @@
     Returns:
         list: return answer
 */
-void main() {}
+List func(List list1, List list2) {
+  return list1+list2;
+}
+
+void main() {
+  print(func([12,3,3,32,],[3,32,232]));
+}
+
