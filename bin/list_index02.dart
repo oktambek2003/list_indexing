@@ -6,11 +6,12 @@
     Returns:
         list: return answer
 */
-String  func(List list1) {
-  return list1[0].toString();
+import 'list_index01.dart';
+
+void func(List list1) {
+  print(list1[0]);
 }
 
 void main() {
-  print(func(["'ds'",1, 3, 4]));
+  func(["ds", 1, 3, 4]);
 }
-
