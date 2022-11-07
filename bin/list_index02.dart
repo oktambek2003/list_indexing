@@ -6,11 +6,11 @@
     Returns:
         list: return answer
 */
-int  func(List list1) {
+String  func(List list1) {
   return list1[0];
 }
 
 void main() {
-  print(func([1, 3, 4]));
+  print(func(['ffd',1, 3, 4]));
 }
 
