@@ -11,6 +11,6 @@ String  func(List list1) {
 }
 
 void main() {
-  print(func(["ds",1, 3, 4]));
+  print(func(["'ds'",1, 3, 4]));
 }
 
