@@ -7,10 +7,10 @@
         list: return answer
 */
 String  func(List list1) {
-  return list1[0];
+  return list1[0].toString();
 }
 
 void main() {
-  print(func(['ffd',1, 3, 4]));
+  print(func(["ds",1, 3, 4]));
 }
 
