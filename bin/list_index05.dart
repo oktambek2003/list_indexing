@@ -7,17 +7,16 @@
     Returns:
         list: return answer
 */
-String func(List list1, int i) {
-  return list1[i];
-}
+void func(List list1, int i) {
+  print(list1[i]);
 
 void main() {
-  print(func([
+  func([
     1,
     3,
     4,
     23,
     43,
     7
-  ], 4));
+  ], 4);
 }
